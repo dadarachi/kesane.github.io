@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(270deg, #000000 0%, #565252 26%, #5e5b5b 100%);
+}
+
+p,
+.btn-outline-primary
+{
+    color: aquamarine;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(151, 154, 154);
+}
+
+.navbar-brand img {
+    width: 60px;
+}
+
+.navbar-toggler {
+    background-color: rgb(151, 154, 154);
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(90deg, #000000 0%, #393838 26%, #5e5d5d 100%);
+
+
+}
+
+.card {
+    background: linear-gradient(270deg, #000000 0%, #393838 26%, #5e5d5d 100%);
+}
+
+.card-text {
+    color: aquamarine;
+}
+
+.card-title {
+    color: aquamarine;
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.slide-text,
+.footer-text{
+    color:aquamarine;
+    margin: auto auto;
+}
+footer,
+.btn-outline-primary
+{
+    background: linear-gradient(90deg, #000000 0%, #393838 26%, #5e5d5d 100%);
+
+}
+
+.animation{
+    animation: myAnim 3s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(-68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+.navbar {
+    background: linear-gradient(90deg, #000000 0%, #393838 26%, #5e5d5d 100%);
+    
+}
+
+
